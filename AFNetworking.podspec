@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'AFNetworking'
-  s.version  = '4.0.1'
+  s.version  = '4.0.1.1'
   s.license  = 'MIT'
   s.summary  = 'A delightful networking framework for Apple platforms.'
   s.homepage = 'https://github.com/AFNetworking/AFNetworking'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Security' do |ss|
-    ss.source_files = 'AFNetworking/AFSecurityPolicy.{h,m}'
+    ss.source_files = 'AFNetworking/AFSecurityPolicy.{h,m}', 'AFNetworking/PrivacyInfo.xcprivacy'
   end
 
   s.subspec 'Reachability' do |ss|
