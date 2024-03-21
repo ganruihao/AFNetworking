@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Security' do |ss|
-    ss.source_files = 'AFNetworking/AFSecurityPolicy.{h,m}', 'AFNetworking/PrivacyInfo.xcprivacy'
+    ss.source_files = 'AFNetworking/AFSecurityPolicy.{h,m}'
   end
 
   s.subspec 'Reachability' do |ss|
